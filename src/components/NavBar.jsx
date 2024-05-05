@@ -71,7 +71,7 @@ export function NavbarSimple() {
       <div className="flex items-center justify-between text-blue-gray-900">
         <div className="cursor-pointer py-1.5 flex items-center">
           <img src="logo.png" alt="logo" className="w-10 h-auto" />
-          <NavLink to="masar/" >
+          <NavLink to="masar-latest/" >
             <h1>مسار بلا حواجز</h1>
           </NavLink>
         </div>

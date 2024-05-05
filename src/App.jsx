@@ -33,7 +33,7 @@ const App = () => {
           <ScrollToTop />  
           {/* to scroll to top when routing to the page */}
           <Routes>
-            <Route path="/masar" element={<HomePage />} />
+            <Route path="/masar-latest/" element={<HomePage />} />
             <Route path="/masar/center" element={<CenterPage />} />
             <Route path="/masar/arts" element={<ArtsCollegePage />} />
             <Route path="/masar/scanner" element={<Scanner />} />
