@@ -26,7 +26,7 @@ export function NavList({ setOpenNav }) {
       </NavLink> */}
       
       <NavLink
-        to="/masar/scanner"
+        to="/masar-latest/scanner"
         // className="flex items-center hover:text-blue-500 transition-colors"
         className={({isActive, isPending})=> (isActive)? "text-blue-500" : "flex items-center hover:text-blue-500 transition-colors"}
 
@@ -36,7 +36,7 @@ export function NavList({ setOpenNav }) {
       </NavLink>
 
       <NavLink
-        to="/masar/about"
+        to="/masar-latest/about"
         // className="flex items-center hover:text-blue-500 transition-colors"
         className={({isActive, isPending})=> (isActive)? "text-blue-500" : "flex items-center hover:text-blue-500 transition-colors"}
         onClick={handleNavLinkClick} 

@@ -34,10 +34,10 @@ const App = () => {
           {/* to scroll to top when routing to the page */}
           <Routes>
             <Route path="/masar-latest/" element={<HomePage />} />
-            <Route path="/masar/center" element={<CenterPage />} />
-            <Route path="/masar/arts" element={<ArtsCollegePage />} />
-            <Route path="/masar/scanner" element={<Scanner />} />
-            <Route path="/masar/about" element={<AboutUsPage />} />
+            <Route path="/masar-latest/center" element={<CenterPage />} />
+            <Route path="/masar-latest/arts" element={<ArtsCollegePage />} />
+            <Route path="/masar-latest/scanner" element={<Scanner />} />
+            <Route path="/masar-latest/about" element={<AboutUsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
           <ScrollToTopButton/>
