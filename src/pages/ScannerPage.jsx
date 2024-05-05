@@ -90,7 +90,7 @@ function Scanner() {
       <div>
         <div className="container mx-auto">
           <h1 className="text-base md:text-xl flex items-center justify-center mx-5 bg-purple-200 rounded-md w-auto px-5 py-2 text-white">
-            أو قم بالإختيار يدويا
+            أو قم بالإختيار يدوياً
             <CursorArrowRippleIcon className="w-5 h-5 mr-2" />
           </h1>
 
