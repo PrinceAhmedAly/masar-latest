@@ -18,11 +18,11 @@ const HeroSection = () => {
             فيديو بلغة الإشارة يدلك على وجهتك
           </p>
           <div className="flex items-center justify-center gap-2 flex-col md:flex-row">
-          <Link to="/masar/about" className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-center w-2/3 md:w-1/3">
+          <Link to="/masar-latest/about" className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-center w-2/3 md:w-1/3">
               إعرف أكثر
               <QuestionMarkCircleIcon className="w-7 h-7 mr-1" />
             </Link>
-            <Link to="/masar/scanner" className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-center w-2/3 md:w-1/3">
+            <Link to="/masar-latest/scanner" className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 flex items-center justify-center w-2/3 md:w-1/3">
               إختر وجهتك
               <QrCodeIcon className="w-7 h-7 mr-1" />
             </Link>

@@ -18,7 +18,7 @@ function AboutUS() {
           الموقع لخدمة الصم داخل جامعة سوهاج.
         </p>
         <div className="my-5">
-          <Link to={"/masar/about"} className="bg-blue-500 hover:bg-blue-600 text-white font:semibold py-2 px-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 h-10 my-3 flex flex-row-reverse">
+          <Link to={"/masar-latest/about"} className="bg-blue-500 hover:bg-blue-600 text-white font:semibold py-2 px-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 h-10 my-3 flex flex-row-reverse">
           <QuestionMarkCircleIcon className="w-7 h-7 mr-1" />
             إعرف أكثر
           </Link>

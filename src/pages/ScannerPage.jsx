@@ -96,7 +96,7 @@ function Scanner() {
 
           {/* manual colleges container */}
           <div className="flex gap-5  md:flex-row flex-col items-center my-10">
-            <Link to={"/masar/center"}
+            <Link to={"/masar-latest/center"}
              className="flex items-center justify-evenly w-2/3 md:w-1/3 bg-blue-50 h-24 rounded-md shadow-xl cursor-pointer">
               <span>مركز خدمة ذوي الإعاقة</span>
               <img
@@ -106,7 +106,7 @@ function Scanner() {
               />
             </Link>
 
-            <Link to={"/masar/arts"}
+            <Link to={"/masar-latest/arts"}
              className="flex items-center justify-evenly my-4 w-2/3 md:w-1/3 bg-blue-50 h-24 rounded-md shadow-xl cursor-pointer">
               <span>كلية الآداب</span>
               <img
