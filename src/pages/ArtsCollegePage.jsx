@@ -4,6 +4,25 @@ import DistCard from "../components/DistCard";
 import SimpleDialog from "../components/SimpleDialog";
 import VideoTextDialog from "../components/VideoTextDialog";
 
+const distinations = [
+  { name: "حجره العميد وسكارترية العميد", img: "./secretary.png" },
+  { name: "أمين الكليه", img: "./manager2.png" },
+  { name: "وكلاء الكليه", img: "./members.png" },
+  {
+    name: "الأقسام ومكاتب رؤساء الأقسام وأعضاء هيئة التدريس",
+    img: "./members2.png",
+  },
+  { name: "سكرتاريه الأقسام وأعضاء التدريس ", img: "./manager1.png" },
+  { name: "شئون الطلاب", img: "./student.png" },
+  { name: "مدرجات", img: "./stairs.png" },
+  { name: "قاعات", img: "./hall.png" },
+  { name: "فصول", img: "./class.png" },
+  { name: "معامل", img: "./laps.png" },
+  { name: "مكتبه", img: "./library.png" },
+  { name: "مصلى", img: "./pray.png" },
+  { name: "الكافتيريا والاوفيس", img: "./coffe.png" },
+  { name: "حمامات wc", img: "./wc.png" },
+];
 const distNames = [
   "حجره العميد وسكارترية العميد",
   "أمين الكليه",
@@ -129,11 +148,21 @@ function ArtsCollegePage() {
         }}
       >
         <div className="my-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 grid-flow-row">
-          {distNames.map((title, index) => (
+          {/* {distNames.map((title, index) => (
             <DistCard
               key={index}
               title={title}
               imageSrc={distImages[index]}
+              onPlayButtonClick={() => handleCardClick(index)}
+              onEditButtonClick={() => handleEditBtnClick(index)}
+            />
+          ))} */}
+
+          {distinations.map((dist, index) => (
+            <DistCard
+              key={index}
+              title={dist.name}
+              imageSrc={dist.img}
               onPlayButtonClick={() => handleCardClick(index)}
               onEditButtonClick={() => handleEditBtnClick(index)}
             />

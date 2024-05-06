@@ -11,6 +11,21 @@ import { Link } from "react-router-dom";
 function Scanner() {
   const [cameraAccess, setCameraAccess] = useState(false);
 
+  const links = [
+    {
+      routeLink: "/masar-latest/center",
+      title: "مركز خدمة ذوي الإعاقة",
+      imgSrc: "./disabled-center.png",
+      alt: "مركز خدمة ذوي الاعاقة",
+    },
+    {
+      routeLink: "/masar-latest/arts",
+      title: "كلية الآداب",
+      imgSrc: "./sponsor3.png",
+      alt: "كلية الآداب",
+    },
+  ];
+
   const checkCameraAccess = async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ video: true });
@@ -96,31 +111,21 @@ function Scanner() {
 
           {/* manual colleges container */}
           <div className="flex gap-5  md:flex-row flex-col items-center my-10">
-            <Link to={"/masar-latest/center"}
-             className="flex items-center justify-evenly w-2/3 md:w-1/3 bg-blue-50 h-24 rounded-md shadow-xl cursor-pointer">
-              <span>مركز خدمة ذوي الإعاقة</span>
-              <img
-                src="./disabled-center.png"
-                alt="مركز خدمة ذوي الإعاقة"
-                className="w-16 h-auto"
-              />
-            </Link>
-
-            <Link to={"/masar-latest/arts"}
-             className="flex items-center justify-evenly my-4 w-2/3 md:w-1/3 bg-blue-50 h-24 rounded-md shadow-xl cursor-pointer">
-              <span>كلية الآداب</span>
-              <img
-                src="./sponsor3.png"
-                alt="كلية الآداب"
-                className="w-16 h-auto"
-              />
-            </Link>
-
+            {links.map((link, index) => (
+              <Link
+                to={link.routeLink}
+                className="flex items-center justify-evenly w-2/3 md:w-1/3 bg-blue-50 h-24 rounded-md shadow-xl cursor-pointer"
+              >
+                <h3>{link.title}</h3>
+                <img src={link.imgSrc} alt={link.alt} className="w-16 h-auto" />
+              </Link>
+            ))}
+            
             <div className="flex items-center justify-evenly w-2/3 md:w-1/3 bg-red-100 h-24 rounded-md shadow-xl cursor-not-allowed">
               <span className="flex flex-col">
                 <span> كلية التربية النوعية</span>
                 <span className="bg-red-500 text-white rounded-md p-1 text-xs">
-              ستكون متاحة قريباً
+                  ستكون متاحة قريباً
                 </span>
               </span>
               <img

@@ -3,6 +3,7 @@ import Vision from "../components/Vision";
 import NameCard from "../components/NameCard";
 import DocName from "../components/DocName";
 import StudentsSwiper from "../components/StudentsSwiper";
+import SimpleTitle from "../components/SimpleTitle";
 
 const students = [
   {name: "بسمة الحسيني", Image: "./students/basma.jpeg"},
@@ -25,8 +26,9 @@ const docNames = [
   "د/ مروة فوزي عبد العليم",
 ];
 
-const title = [
-  "تحت إشراف"
+const supervisors = [
+  {title: "القائمين على المشروع"},
+  {title: "تحت إشراف: "}
 ];
 
 function AboutUsPage() {
@@ -37,9 +39,7 @@ function AboutUsPage() {
       {/* names */}
       <div className="my-1">
         <div className="w-full p-3 text-center my-2 mt-5">
-          <h1 className="text-xl md:text-2xl font-bold">
-            القائمين على المشروع:
-          </h1>
+        <SimpleTitle title={supervisors[0].title}/>
         </div>
 
         <div className="w-full p-3 text-right">
@@ -61,7 +61,7 @@ function AboutUsPage() {
         {/* supervisors */}
         <div className="w-full p-3 text-center my-2 mt-5">
           <div>
-            <h1 className="text-xl md:text-2xl font-bold">{title[0]}</h1>
+          <SimpleTitle title={supervisors[1].title}/>
           </div>
 
           <div className="my-5 px-5 md:px-3 grid grid-cols-1 md:grid-cols-3 gap-3">
