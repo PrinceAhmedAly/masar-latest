@@ -120,7 +120,7 @@ function Scanner() {
               <span className="flex flex-col">
                 <span> كلية التربية النوعية</span>
                 <span className="bg-red-500 text-white rounded-md p-1 text-xs">
-              سيتم إضافتها قريباً
+              ستكون متاحة قريباً
                 </span>
               </span>
               <img
