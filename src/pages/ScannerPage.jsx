@@ -68,7 +68,7 @@ function Scanner() {
         </h1>
 
         <div className="flex items-center justify-center my-4 w-full">
-          <div className="flex items-center justify-center relative min-w-1/2">
+          <div className="flex items-center justify-center relative min-h-1/2">
             <img
               src="./mobile-qr.jpg"
               alt="mobile with qr code"
