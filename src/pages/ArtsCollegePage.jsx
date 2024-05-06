@@ -61,16 +61,17 @@ const videoUrls = [
   "https://www.youtube.com/embed/rkCJy3dM3_Q?si=dGGG6_Sng6HDR4l4",
   "https://www.youtube.com/embed/by7UxGvcZb0?si=EQAcYQgPdX3cpt9x",
   "https://www.youtube.com/embed/LuBDwgKz3Rc?si=ZjnzM5it3gLX7Kgc",
+  "https://www.youtube.com/embed/D1dksqJjhMM?si=5gNCLX8UsFrRs_1K",
   "https://www.example.com/video3.mp4",
-  "https://www.youtube.com/embed/Nr8PXTjTe0U?si=zPm9bpZ_fpy_QGis",
   "https://www.youtube.com/embed/597PlJRo3c4?si=jKatKqetW4D_wX7H",
   "https://www.youtube.com/embed/y3o2EU6un7o?si=wJYCL0yvnfX94d6r",
   "https://www.youtube.com/embed/Gf6Ac3jSggI?si=MJ_scg7WAHSXGBOM",
+  "https://www.youtube.com/embed/1-Q124QiEdM?si=fVJ1MqsmFMi6x5yd",
   "https://www.example.com/video3.mp4",
   "https://www.example.com/video3.mp4",
   "https://www.example.com/video3.mp4",
-  "https://www.example.com/video3.mp4",
-  "https://www.example.com/video3.mp4",
+  "https://www.youtube.com/embed/SQJQUH4f4cY?si=oR9LCktP-Fju8izA",
+  "https://www.youtube.com/embed/MxWsRcGx5So?si=4_srbXjVDM_0wy0i",
 ];
 
 const videoText = [
@@ -148,6 +149,7 @@ function ArtsCollegePage() {
         }}
       >
         <div className="my-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 grid-flow-row">
+
           {/* {distNames.map((title, index) => (
             <DistCard
               key={index}

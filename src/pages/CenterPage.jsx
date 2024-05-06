@@ -25,12 +25,12 @@ const distImages = [
 ];
 
 const videoUrls = [
-  "https://www.example.com/video3.mp4",
-  "https://www.example.com/video3.mp4",
-  "https://www.example.com/video3.mp4",
-  "https://www.example.com/video3.mp4",
-  "https://www.example.com/video3.mp4",
-  "https://www.example.com/video3.mp4",
+  "https://www.youtube.com/embed/8UY6QVSql-I?si=jjoOS2GPmA4oSz3d",
+  "https://www.youtube.com/embed/NdbJ5rcwiwA?si=A_gtFb-lVeY-Udhr",
+  "https://www.youtube.com/embed/9uu4Tx1y5_A?si=wZUHqYAdoSOxJdqV",
+  "https://www.youtube.com/embed/GqQJjMXxtzs?si=OACPtKfLp0iFIy2-",
+  "https://www.youtube.com/embed/H2PU8GALrcU?si=3pMq8TIdwyXmxxZY",
+  "https://www.youtube.com/embed/m5kpYILMGtQ?si=ft3Pnev_Dfr7C9k7",
   "https://www.youtube.com/embed/IZCy5KbBMdQ?si=3b__VXD03d1QPhoc",
 ];
 
