@@ -17,10 +17,10 @@ const QRScannerComponent = () => {
         const scanner = new QrScanner(videoRef.current, result => {
           console.log('Scanned QR code:', result);
           if (result === 'arts') {
-           navigate('/masar/arts');
+           navigate('/masar-latest/arts');
             // alert('Correct');
           } else if (result === 'center') {
-            navigate('/masar/center');
+            navigate('/masar-latest/center');
           } else {
             toast.error('كود غير صحيح برجاء المحاولة مجدداً');
           }
