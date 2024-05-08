@@ -46,7 +46,7 @@ export default function App() {
         className="mySwiper"
       >
         {students.map((student, index) => (
-                <SwiperSlide key={index} className="my-5">
+                <SwiperSlide key={index} className="my-10">
                     <div className="swiper-slide-content">
                         <img src={student.Image} alt={student.name} className="rounded-lg"/>
                         <h2 className="text-md md:text-lg text-center">{student.name}</h2>

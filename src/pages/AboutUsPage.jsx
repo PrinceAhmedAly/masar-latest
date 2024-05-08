@@ -54,7 +54,7 @@ function AboutUsPage() {
           ))}
         </div> */}
 
-        <div className="w-full h-auto  md:px-10">
+        <div className="w-full h-auto  md:px-10 min-h-48">
           <StudentsSwiper />
         </div>
 
